@@ -1,0 +1,12 @@
+#barbershop-employee-card {
+    width: 80%;
+
+    background-color: rgb(236, 236, 236);
+
+    margin: 1rem;
+    padding: 1rem;
+}
+
+#barbershop-employee-card button {
+    margin-top: 1rem;
+}

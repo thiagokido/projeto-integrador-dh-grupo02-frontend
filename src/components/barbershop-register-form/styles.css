@@ -1,0 +1,72 @@
+#barbershop-register-form {
+    width: 60rem;
+    height: 85%;
+    margin: 10rem;
+
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#barbershop-register-form form {
+    height: 100%;
+    width: 100%;
+    padding: 1rem 2rem 1rem 2rem;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+
+    font-size: 1.5rem;
+}
+
+#barbershop-register-form form div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+    width: 45%;
+    height: 90%;
+}
+
+#barbershop-register-form form div legend {
+    margin: 1rem;
+    text-align: center;
+}
+
+#barbershop-register-form form div .barbershop-register-field {
+    width: 90%;
+    height: 2.5rem;
+    margin: .8rem;
+    padding: 1rem;
+    border: 0;
+    background-color: rgb(245,245, 245);
+}
+
+#barbershop-register-form form div .barbershop-register-field-photo {
+    width: 90%;
+    margin: .8rem;
+    border: 0;
+}
+
+#barbershop-register-form form div label {
+    width: 90%;
+    margin: .8rem;
+    border: 0;
+    font-size: .8rem;
+}
+
+.barbershop-register-submit {
+    width: 90%;
+    height: 2.5rem;
+    margin: 1rem;
+    border: 0;
+    background-color: rgb(220, 220, 220);
+    cursor: pointer;
+    font-size: 1rem;
+}

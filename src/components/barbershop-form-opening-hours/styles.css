@@ -1,0 +1,70 @@
+#barbershop-form-opening-hours {
+    width: 60rem;
+    height: 85%;
+    margin: 10rem;
+    padding: 1rem 0 0.8rem 0;
+
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#barbershop-form-opening-hours h3 {
+    width: 100%;
+    margin-top: 1rem;
+    padding-left: 5rem;
+}
+
+#barbershop-form-opening-hours form {
+    height: 100%;
+    width: 100%;
+    padding: 1rem 2rem 1rem 2rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    font-size: 1.5rem;
+}
+
+#barbershop-form-opening-hours form div {
+    width: 90%;
+    height: 2rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+    font-size: .8rem;
+    line-height: 2rem;
+}
+
+#barbershop-form-opening-hours form div label {
+    width: 10rem;
+
+    text-align: center;
+}
+
+#barbershop-form-opening-hours form div select {
+    width: 10rem;
+    height: 2rem;
+
+    margin: 0;
+
+    text-align: center;
+}
+
+#barbershop-form-opening-hours form div input {
+    width: 1rem;
+    height: 1rem;
+}
+
+#barbershop-form-opening-hours form input {
+    width: 10rem;
+    height: 2rem;
+}

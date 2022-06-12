@@ -1,0 +1,66 @@
+#component-header {
+    background: black;
+
+    height: 6rem;
+    width: 100%;
+    position: fixed;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+#component-header > div {
+    height: 100%;
+    width: 70%;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+
+    color: white;
+}
+
+#header-logo img {
+    max-width: 100%;
+    max-height: 6.5rem;
+    padding: 1rem;
+    margin: 0rem 2rem 0px 2rem;
+}
+
+#component-header ul {
+    display: flex;
+
+    list-style: none;
+}
+
+#component-header > div > ul > li {
+    margin: 0rem 1.5rem 0rem 1.5rem;
+}
+
+#component-header #header-login {
+    width: 30%;
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+#header-login > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 10rem;
+    height: 50%;
+    margin: 1.5rem;
+
+    border: 0.1rem;
+    border-color: white;
+    border-style: solid;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}

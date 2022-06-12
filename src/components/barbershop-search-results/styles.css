@@ -1,0 +1,49 @@
+#search-results {
+    width: 71%;
+    height: 98%;
+
+    padding: 0 2rem 0 2rem;
+
+    background-color: white;
+    border-color: white;
+
+    overflow-y: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#search-results h1 {
+    width: 100%;
+    height: 4rem;
+    line-height: 4rem;
+    margin-bottom: 2rem;
+
+    border-bottom: solid;
+    border-width: 0.1rem;
+
+    font-size: 1.5rem;
+}
+
+#result-cards {
+    width: 90%;
+    height: auto;
+    padding: 0 1rem 0 1rem;
+
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    overflow-y: scroll;
+}
+
+#result-cards::-webkit-scrollbar{
+    width: .2rem;
+}
+
+#result-cards::-webkit-scrollbar-thumb {
+    background-color: rgb(141, 141, 141);
+}

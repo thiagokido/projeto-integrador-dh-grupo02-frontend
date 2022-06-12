@@ -1,0 +1,15 @@
+#barbershop-register-opening-hours {
+    margin-top: 6rem;
+
+    max-width: 1920px;
+    width: 100%;
+    height: 42rem;
+
+    background: url('../../images/user-register.jpg') no-repeat center center;
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}

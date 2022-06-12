@@ -1,0 +1,36 @@
+#barbershop-page-menu {
+    width: 25%;
+    height: 100%;
+
+    border-right: .1rem solid rgb(201, 201, 201);
+}
+
+#barbershop-name {
+    height: 6rem;
+    line-height: 6rem;
+
+
+    border-bottom: .1rem solid rgb(201, 201, 201);
+
+    text-align: center;
+
+    font-size: 1.5em;
+}
+
+#barbershop-page-menu-list li {
+    height: 4rem;
+    line-height: 4rem;
+
+    padding-left: 1rem;
+
+
+    border-bottom: .1rem solid rgb(201, 201, 201);
+
+    list-style: none;
+
+    cursor: pointer;
+}
+
+#barbershop-page-menu-list li a {
+    color: black;
+}

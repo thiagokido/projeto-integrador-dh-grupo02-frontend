@@ -1,0 +1,53 @@
+#user-register-form {
+    width: 30rem;
+    height: 85%;
+    margin: 10rem;
+
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#user-register-form form {
+    height: 100%;
+    width: 100%;
+    padding: 1rem 2rem 1rem 2rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+    font-size: 1.5rem;
+}
+#user-register-form form legend {
+    margin: 1rem;
+}
+
+#user-register-form form .user-register-field {
+    width: 90%;
+    height: 2.5rem;
+    margin: .8rem;
+    padding: 1rem;
+    border: 0;
+    background-color: rgb(245,245, 245);
+}
+
+#user-register-form .user-register-submit {
+    width: 90%;
+    height: 2.5rem;
+    margin: 1rem;
+    border: 0;
+    background-color: rgb(220, 220, 220);
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+#user-register-form p {
+    color: red;
+    font-size: 0.8rem;
+    text-align: left;
+}

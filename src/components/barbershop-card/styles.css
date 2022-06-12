@@ -1,0 +1,63 @@
+#card {
+    width: 100%;
+    min-height: 17rem;
+    max-height: 17rem;
+
+    background-color: white;
+
+    border-radius: .5rem;
+    border-color: rgb(230, 230, 230);
+    border-style: solid;
+    border-width: 0.1rem;
+
+    margin-bottom: 2rem;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#card-img {
+    height: 80%;
+    width: 40%;
+
+    overflow: hidden;
+
+    padding: 1rem;
+
+    display: flex;
+    align-items: center;
+}
+
+#card-img img{
+    width: 100%;
+    height: auto;
+}
+
+#card-info {
+    width: 40%;
+
+    padding: 1rem;
+}
+
+#card-info > h1 {
+    height: 1.3rem;
+    line-height: 1.5rem;
+    border: none;
+
+    font-weight: 400;
+}
+
+#card-address {
+    margin-bottom: 1.3rem;
+}
+
+#card-schedule {
+    height: 2.5rem;
+    width: 15%;
+    border-radius: .5rem;
+
+    border-style: none;
+    background-color: rgb(68, 68, 68);
+    color: white;
+}

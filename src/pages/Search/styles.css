@@ -1,0 +1,12 @@
+#search {
+    max-width: 1920px;
+    width: 100%;
+    height: 42rem;
+    margin-top: 6rem;
+    padding: 0 10% 0 10%;
+
+    display: flex;
+    flex-direction: row;
+
+    background-color: white ;
+}

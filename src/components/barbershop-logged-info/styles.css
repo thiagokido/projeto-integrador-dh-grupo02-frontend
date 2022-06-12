@@ -1,0 +1,30 @@
+#barbershop-logged-info {
+    width: 75%;
+
+    padding-top: 2rem;
+
+    display: flex;
+    flex-direction: column;
+}
+
+#barbershop-logged-info h2 {
+    font-weight: 400;
+
+    margin-bottom: 2rem;
+}
+
+#barbershop-logged-info input {
+    width: 30rem;
+    height: 2.5rem;
+
+    margin: .5rem 0;
+    padding-left: 1rem;
+
+    background-color: rgb(245, 245, 245);
+
+    border: 0;
+}
+
+#barbershop-logged-info .barbershop-general-info {
+    margin: 1rem 0;
+}

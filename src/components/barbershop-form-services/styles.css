@@ -1,0 +1,77 @@
+#barbershop-form-services {
+    width: 60rem;
+    height: 85%;
+    margin: 10rem;
+    padding: 1rem;
+
+    background-color: white;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#barbershop-form-services #services-form {
+    width: 40%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+#barbershop-form-services #services-form h3 {
+    width: 100%;
+    margin: 1rem 1.5rem 1rem 1.5rem;
+}
+
+#barbershop-form-services #services-form form {
+    display: flex;
+    flex-direction: column;
+
+    margin: 1rem;
+}
+
+#barbershop-form-services form #services-submit {
+    background-color: rgb(220, 220, 220);
+    border: 0;
+
+    margin: .5rem;
+
+    height: 2rem;
+}
+
+#barbershop-form-services #services-form form .register-services-field{
+    margin: .5rem;
+
+    height: 2rem;
+
+    background-color: rgb(245,245,245);
+    border: 0;
+    padding-left: 1rem;
+}
+
+
+#barbershop-form-services #services-list {
+    width: 60%;
+    height: 100%;
+
+    padding-top: 4rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    overflow-y: auto;
+}
+
+#barbershop-form-services #close-register {
+    background-color: rgb(220, 220, 220);
+    border: 0;
+
+    margin: .5rem;
+
+    height: 2rem;
+    line-height: 2rem;
+
+    text-align: center;
+}
